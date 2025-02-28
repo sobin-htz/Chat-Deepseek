@@ -3,7 +3,6 @@ import json
 import os
 from dotenv import load_dotenv
 
-#API_KEY= "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"
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY") 
